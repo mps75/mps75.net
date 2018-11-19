@@ -1,6 +1,6 @@
 # Matthew Swanson personal blog
 
-This is the code for [Matthew Swanson's personal blog](https://www.mps75.net)
+This is the code for [Matthew Swanson's personal blog](https://mps75.net)
 
 
 ## Tech
