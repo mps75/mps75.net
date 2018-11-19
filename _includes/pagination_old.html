@@ -1,0 +1,15 @@
+<div class="col-9 sm-width-full mt-4 text-left">
+  {% if paginator.previous_page %}
+    <a class="text-accent bold" href="{{ paginator.previous_page_path }}"><i class="fa fa-angle-double-left"></i></a>
+  {% else %}
+    <i class="fa fa-angle-double-left"></i>
+  {% endif %}
+  
+  <span class="h5">[page {{ paginator.page }} of {{ paginator.total_pages }}]</span>
+  
+  {% if paginator.next_page %}
+    <a class="text-accent bold" href="{{ paginator.next_page_path }}"><i class="fa fa-angle-double-right"></i></a>
+  {% else %}
+    <i class="fa fa-angle-double-right"></i>
+  {% endif %}
+</div>

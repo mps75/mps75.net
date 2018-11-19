@@ -1,0 +1,22 @@
+---
+layout: page
+title: archives
+permalink: /archives/
+---
+
+{%- assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
+{%- for year in postsByYear -%}
+  <h2 class="mb-0 mt-0 py-0">{{ year.name }}</h2>
+  {%- assign postsByMonth = year.items | group_by_exp:"post","post.date | date:'%m %B'" | sort:'name' | reverse -%}
+  {%- for monthitem in postsByMonth -%}
+    {%- assign month = monthitem.name | split:" " -%}
+      <h3 class="mt-0">{{ month[1] }}</h3>
+      <ul>
+        {%- for item in monthitem.items -%}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+  {%- endfor -%}
+{%- endfor -%}
+
+
