@@ -17,8 +17,8 @@ button {
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -28,13 +28,13 @@ html, body {
 }
 
 body {
-    font-family: $body-font-family;
-    font-size: $body-font-size;
-    line-height: 1.5;
-    color: $color-body-text;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: 1.5;
+  color: $color-body-text;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
