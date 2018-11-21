@@ -17,7 +17,8 @@ title: mps75
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mps75.net" # the base hostname & protocol for your site, e.g. http://example.com
-author: "Matthew Swanson"
+author:
+  twitter: mps75
 github_username: mps75
 repository: mps75/mps75.net
 

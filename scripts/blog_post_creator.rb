@@ -10,7 +10,7 @@ print "Tags? (Space separated list; leave blank if none) "
 tags = Array.new
 tags = (gets.chomp).split
 
-# Get today's date and format it so it's suitable for a file
+# Get today's date and format it so it's suitable for a filename
 timestamp = DateTime.now.strftime("%Y-%m-%d")
 
 # Turn the blog post title into a suitable filename
@@ -22,5 +22,5 @@ template = File.read('blog_post_template.md.erb')
 # Execute the ERB code and produce the templated output
 output = ERB.new(template).result(binding)
 
-# Write the templated output into a file
-File.open("../drafts/#{timestamp}-#{blog_post_filename}.md", 'w').write(output)
+# Write the templated output into a new post file
+File.new("../drafts/#{timestamp}-#{blog_post_filename}.md", 'w').write(output)
