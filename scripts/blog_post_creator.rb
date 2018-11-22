@@ -6,7 +6,7 @@ require 'erb'
 # Ask the user for the blog post title and tags
 print "Blog post title: "
 blog_post_title = gets.chomp
-print "Tags? (Space separated list; leave blank if none) "
+print "Tags? (Space separated list; leave blank if none): "
 tags = Array.new
 tags = (gets.chomp).split
 
