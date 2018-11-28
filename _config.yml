@@ -43,7 +43,7 @@ exclude:
   - scripts
 highlighter: rouge
 markdown: kramdown
-paginate: 3
+paginate: 7
 paginate_path: "/page:num/"
 permalink: "/:year/:month/:day/:title"
 timezone: "America/Los_Angeles"
@@ -54,7 +54,6 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-
 
 # Social profiles (for SEO)
 social:
