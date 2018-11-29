@@ -5,6 +5,7 @@ date: 2018-11-26
 author:
   twitter: mps75
 tags: ["minimalism"]
+comments: true
 ---
 
 In 2014 we sold our 2500 square foot house and moved into a 900 square foot apartment. A couple years later we went even smaller and moved into a 400 square foot guest house. Early retirement had been on our radar since we were in our mid-thirties and after taking a more detailed look at our finances we realized we were a lot closer to making that happen than originally thought. Making a few modifications to our living situation would give us even more flexibility figuring out the next phase of our lives. We liked our house and really liked our neighbors/neighborhood, but realized how inefficient it was for just the two of us to live in such a big place.  So, we went through the painstaking process of going small and along the way learned a lot about downsizing and what it means to lead a simpler life. If I had to come up with a single take-away from the whole experience it would be this: It's a lot easier to buy stuff than it is to get rid of it. So make sure the things you're buying are really worth it.

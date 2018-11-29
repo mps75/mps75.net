@@ -5,6 +5,7 @@ date: 2018-11-16
 author:
   twitter: mps75
 tags: [blog]
+comments: true
 ---
 
 Hello world.

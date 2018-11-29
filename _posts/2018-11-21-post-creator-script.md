@@ -5,6 +5,7 @@ date: 2018-11-21
 author:
   twitter: mps75
 tags: [blog, ruby]
+comments: true
 ---
 
 [Jekyll](https://jekyllrb.com) blog posts are simply text files written in [Markdown](https://daringfireball.net/projects/markdown/syntax).  But, they need to be named a certain way and they need to include specific metadata, known as "front matter," at the beginning of the file.  I've been rekindling my love affair with Ruby lately and figured I'd write a silly little script to help me create new posts since I can never remember the file naming convention or how to craft the required front matter.  I think there might already be a gem out there named [Jekyll Compose](https://github.com/jekyll/jekyll-compose) that does something similar.  But, since I'm looking for Ruby projects to work on I figured it would be more fun to write something from scratch.
