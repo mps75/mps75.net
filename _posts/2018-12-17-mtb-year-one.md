@@ -2,7 +2,10 @@
 layout: post
 title: "MTB: year one"
 date: 2018-12-17
+author:
+  twitter: mps75
 tags: [mountain_biking]
+comments: true
 ---
 
 We were in Arizona for our annual winter trip last week and I got to thinking about our first year of mountain biking. Last year we were on this same trip at [McDowell Regional Park](https://www.maricopacountyparks.net/mcdowell-mountain-regional-park-mm/) near Fountain Hills, AZ. After spending a week or so running and road riding we were going to head to Tucson to do some hiking and more road riding, as we wanted to climb Mt Lemmon again. On our second day at McDowell Heidi said, "Let's go into town and buy mountain bikes." She's like that while I'm generally more of a, "Ahhhhh, let's think this through" kind of person. After a few minutes of back-and-forth, though, I came around to her way of thinking and we headed to REI. Next to our RV, it was probably the best purchase we've made in the last 10 years.
