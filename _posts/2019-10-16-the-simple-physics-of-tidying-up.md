@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The physics of tidying up"
+title: "The simple physics of tidying up"
 date: 2019-10-16
 author:
   twitter: mps75
