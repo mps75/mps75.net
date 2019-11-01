@@ -51,9 +51,9 @@
 
     {% comment %}Previous page{% endcomment %}
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous-page">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous-page">&laquo; Newer</a>
     {% else %}
-      <span class="previous-page">&laquo; Prev</span>
+      <span class="previous-page">&laquo; Newer</span>
     {% endif %}
 
     {% comment %}Start ellipsis{% endcomment %}
@@ -81,9 +81,9 @@
 
     {% comment %}Next page{% endcomment %}
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next-page">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next-page">Older &raquo;</a>
     {% else %}
-      <span>Next &raquo;</span>
+      <span>Older &raquo;</span>
     {% endif %}
   </div>
 {% endif %}
