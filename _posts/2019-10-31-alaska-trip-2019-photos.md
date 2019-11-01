@@ -101,7 +101,7 @@ Here are the photos that accompany the [Alaska trip 2019 post]({{ site.baseurl }
 *Denali Polychrome Overlook*
 <br /><br />
 
-![21_denali](/assets/img/blog/2019-10-30-ak/21_denali_video.mov){:width="90%"}<br />
+![21_denali](/assets/img/blog/2019-10-30-ak/21_denali_video.mp4){:width="90%"}<br />
 *View from the Denali Eilson Visitor Center*
 <br /><br />
 
